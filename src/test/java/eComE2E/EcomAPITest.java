@@ -18,6 +18,7 @@ public class EcomAPITest {
 	//This is a test to verify the changes is reflecting
 	//in the git
 	public static void main(String[] args) {
+System.out.println("Enna elavu da ithu");
 		RequestSpecification res = new RequestSpecBuilder()
 		.setBaseUri("https://rahulshettyacademy.com/api/ecom")
 		.setContentType(ContentType.JSON).build();
