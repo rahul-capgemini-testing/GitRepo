@@ -13,14 +13,21 @@ import io.restassured.specification.RequestSpecification;
 
 public class EcomAPITest {
 
+	//This is a test to verify the changes is reflecting
+	//in the git
+	//This is a test to verify the changes is reflecting
+	//in the git
 	public static void main(String[] args) {
 		RequestSpecification res = new RequestSpecBuilder()
 		.setBaseUri("https://rahulshettyacademy.com/api/ecom")
 		.setContentType(ContentType.JSON).build();
 		
-		LoginPojo lp = new LoginPojo();
-		lp.setUserEmail("rahulr5366@gmail.com");
-		lp.setUserPassword("Rahul@123");
+		
+		System.out.println("This is a demo entry");
+		  LoginPojo lp = new LoginPojo(); lp.setUserEmail("rahulr5366@gmail.com");
+		  lp.setUserPassword("Rahul@123");
+		 
+		 
 		
 		RequestSpecification reqLogin = given().relaxedHTTPSValidation()
 				.log().all().spec(res).body(lp);
