@@ -14,6 +14,7 @@ import io.restassured.specification.RequestSpecification;
 public class EcomAPITest {
 
 	public static void main(String[] args) {
+System.out.println("Enna elavu da ithu");
 		RequestSpecification res = new RequestSpecBuilder()
 		.setBaseUri("https://rahulshettyacademy.com/api/ecom")
 		.setContentType(ContentType.JSON).build();
