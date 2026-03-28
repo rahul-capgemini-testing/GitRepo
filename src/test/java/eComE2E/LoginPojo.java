@@ -1,6 +1,7 @@
 package eComE2E;
 
 public class LoginPojo {
+//This line is inserted in the next class
 	private String userEmail;
 	private String userPassword;
 	public String getUserEmail() {
