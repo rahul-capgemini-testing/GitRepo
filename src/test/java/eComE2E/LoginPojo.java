@@ -1,6 +1,7 @@
 package eComE2E;
 
 public class LoginPojo {
+//This is a pojo class for login page
 	private String userEmail;
 	private String userPassword;
 	public String getUserEmail() {
